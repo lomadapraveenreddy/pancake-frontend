@@ -23,6 +23,7 @@ export const RO: Language = { locale: 'ro-RO', language: 'Română', code: 'ro' 
 export const RU: Language = { locale: 'ru-RU', language: 'Русский', code: 'ru' }
 export const SVSE: Language = { locale: 'sv-SE', language: 'Svenska', code: 'sv' }
 export const TA: Language = { locale: 'ta-IN', language: 'தமிழ்', code: 'ta' }
+export const TE: Language = { locale: 'te-IN', language: 'తెలుగు', code: 'te' }
 export const TR: Language = { locale: 'tr-TR', language: 'Türkçe', code: 'tr' }
 export const UK: Language = { locale: 'uk-UA', language: 'Українська', code: 'uk' }
 export const VI: Language = { locale: 'vi-VN', language: 'Tiếng Việt', code: 'vi' }
@@ -53,6 +54,7 @@ export const languages: Record<string, Language> = {
   'ru-RU': RU,
   'sv-SE': SVSE,
   'ta-IN': TA,
+  'te-IN': TE,
   'tr-TR': TR,
   'uk-UA': UK,
   'vi-VN': VI,
